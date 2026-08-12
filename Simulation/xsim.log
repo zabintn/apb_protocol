@@ -1,0 +1,159 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Aug 12 18:58:29 2026
+# Process ID         : 839472
+# Current directory  : /home/nashita/Desktop/practice/apb_protocol/Simulation
+# Command line       : xsim -mode tcl -source {xsim.dir/tb_top_snap/xsim_script.tcl}
+# Log file           : /home/nashita/Desktop/practice/apb_protocol/Simulation/xsim.log
+# Journal file       : /home/nashita/Desktop/practice/apb_protocol/Simulation/xsim.jou
+# Running On         : vlsi-vivado
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
+# CPU Frequency      : 800.000 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 41875 MB
+# Swap memory        : 27648 MB
+# Total Virtual      : 69524 MB
+# Available Virtual  : 66356 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_top_snap/xsim_script.tcl
+# xsim {tb_top_snap} -testplusarg RW -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+[15000] RUNNING READ_WRITE TEST
+[15000] INSIDE THE BASE TEST CONSTRUCTOR
+[15000] ENV: before agent
+[15000] DRIVER CONSTRUCTED
+[15000] MONITOR CONSTRUCTED
+[15000] ENV: after agent
+[15000] ENV: before scoreboard
+Scoreboard Constructed
+[15000] ENV: after scoreboard
+[15000] TOTAL TRANSACTIONS = 20
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=0 pwdata=7b7f328 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=1 pwdata=d020473f | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=2 pwdata=11b68514 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=3 pwdata=a7beee6c | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=4 pwdata=fcb12a62 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=5 pwdata=a88a099e | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=6 pwdata=30efdbe0 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=7 pwdata=d62f5d3f | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=8 pwdata=e8e45723 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=9 pwdata=15701b17 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=0 pwdata=fa413b53 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=1 pwdata=1a30b15d | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=2 pwdata=baefb57e | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=3 pwdata=e78091e1 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=4 pwdata=19e944db | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=5 pwdata=1bebfdb7 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=6 pwdata=c36db90e | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=7 pwdata=c6951b24 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=8 pwdata=d51aefa3 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=9 pwdata=38642cf8 | prdata=xxxxxxxx pready=0 pslverr=0
+[65000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=0 pwdata=7b7f328 | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[65000] PREADY CORRRECT | EXP=1 ACT=1
+[70000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=0 pwdata=7b7f328 | prdata=0 pready=1 pslverr=0
+[125000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=1 pwdata=d020473f | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[125000] PREADY CORRRECT | EXP=1 ACT=1
+[130000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=1 pwdata=d020473f | prdata=0 pready=1 pslverr=0
+[185000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=2 pwdata=11b68514 | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[185000] PREADY CORRRECT | EXP=1 ACT=1
+[190000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=2 pwdata=11b68514 | prdata=0 pready=1 pslverr=0
+[245000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=3 pwdata=a7beee6c | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[245000] PREADY CORRRECT | EXP=1 ACT=1
+[250000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=3 pwdata=a7beee6c | prdata=0 pready=1 pslverr=0
+[305000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=4 pwdata=fcb12a62 | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[305000] PREADY CORRRECT | EXP=1 ACT=1
+[310000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=4 pwdata=fcb12a62 | prdata=0 pready=1 pslverr=0
+[365000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=5 pwdata=a88a099e | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[365000] PREADY CORRRECT | EXP=1 ACT=1
+[370000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=5 pwdata=a88a099e | prdata=0 pready=1 pslverr=0
+[425000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=6 pwdata=30efdbe0 | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[425000] PREADY CORRRECT | EXP=1 ACT=1
+[430000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=6 pwdata=30efdbe0 | prdata=0 pready=1 pslverr=0
+[485000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=7 pwdata=d62f5d3f | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[485000] PREADY CORRRECT | EXP=1 ACT=1
+[490000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=7 pwdata=d62f5d3f | prdata=0 pready=1 pslverr=0
+[545000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=8 pwdata=e8e45723 | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[545000] PREADY CORRRECT | EXP=1 ACT=1
+[550000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=8 pwdata=e8e45723 | prdata=0 pready=1 pslverr=0
+[605000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=9 pwdata=15701b17 | prdata=0 pready=1 pslverr=0
+======================= DATA WRITE =============================
+[605000] PREADY CORRRECT | EXP=1 ACT=1
+[610000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=9 pwdata=15701b17 | prdata=0 pready=1 pslverr=0
+[665000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=0 pwdata=fa413b53 | prdata=36 pready=1 pslverr=0
+======================= DATA READ =============================
+[665000] READ DATA FAIL | ADDR=0 | EXPECTED=7b7f328 | ACTUAL=36
+[665000] PREADY CORRRECT | EXP=1 ACT=1
+[670000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=0 pwdata=fa413b53 | prdata=36 pready=1 pslverr=0
+[725000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=1 pwdata=1a30b15d | prdata=e0 pready=1 pslverr=0
+======================= DATA READ =============================
+[725000] READ DATA FAIL | ADDR=1 | EXPECTED=d020473f | ACTUAL=e0
+[725000] PREADY CORRRECT | EXP=1 ACT=1
+[730000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=1 pwdata=1a30b15d | prdata=e0 pready=1 pslverr=0
+[785000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=2 pwdata=baefb57e | prdata=2a pready=1 pslverr=0
+======================= DATA READ =============================
+[785000] READ DATA FAIL | ADDR=2 | EXPECTED=11b68514 | ACTUAL=2a
+[785000] PREADY CORRRECT | EXP=1 ACT=1
+[790000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=2 pwdata=baefb57e | prdata=2a pready=1 pslverr=0
+[845000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=3 pwdata=e78091e1 | prdata=xX pready=1 pslverr=0
+======================= DATA READ =============================
+[845000] READ DATA FAIL | ADDR=3 | EXPECTED=a7beee6c | ACTUAL=xX
+[845000] PREADY CORRRECT | EXP=1 ACT=1
+[850000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=3 pwdata=e78091e1 | prdata=xX pready=1 pslverr=0
+[905000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=4 pwdata=19e944db | prdata=0 pready=1 pslverr=0
+======================= DATA READ =============================
+[905000] READ DATA FAIL | ADDR=4 | EXPECTED=fcb12a62 | ACTUAL=0
+[905000] PREADY CORRRECT | EXP=1 ACT=1
+[910000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=4 pwdata=19e944db | prdata=0 pready=1 pslverr=0
+[965000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=5 pwdata=1bebfdb7 | prdata=0 pready=1 pslverr=0
+======================= DATA READ =============================
+[965000] READ DATA FAIL | ADDR=5 | EXPECTED=a88a099e | ACTUAL=0
+[965000] PREADY CORRRECT | EXP=1 ACT=1
+[970000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=5 pwdata=1bebfdb7 | prdata=0 pready=1 pslverr=0
+[1025000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=6 pwdata=c36db90e | prdata=0 pready=1 pslverr=0
+======================= DATA READ =============================
+[1025000] READ DATA FAIL | ADDR=6 | EXPECTED=30efdbe0 | ACTUAL=0
+[1025000] PREADY CORRRECT | EXP=1 ACT=1
+[1030000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=6 pwdata=c36db90e | prdata=0 pready=1 pslverr=0
+[1085000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=7 pwdata=c6951b24 | prdata=0 pready=1 pslverr=0
+======================= DATA READ =============================
+[1085000] READ DATA FAIL | ADDR=7 | EXPECTED=d62f5d3f | ACTUAL=0
+[1085000] PREADY CORRRECT | EXP=1 ACT=1
+[1090000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=7 pwdata=c6951b24 | prdata=0 pready=1 pslverr=0
+[1145000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=8 pwdata=d51aefa3 | prdata=0 pready=1 pslverr=0
+======================= DATA READ =============================
+[1145000] READ DATA FAIL | ADDR=8 | EXPECTED=e8e45723 | ACTUAL=0
+[1145000] PREADY CORRRECT | EXP=1 ACT=1
+[1150000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=8 pwdata=d51aefa3 | prdata=0 pready=1 pslverr=0
+[1205000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=9 pwdata=38642cf8 | prdata=0 pready=1 pslverr=0
+======================= DATA READ =============================
+[1205000] READ DATA FAIL | ADDR=9 | EXPECTED=15701b17 | ACTUAL=0
+[1205000] PREADY CORRRECT | EXP=1 ACT=1
+
+==============================
+       SCOREBOARD REPORT
+==============================
+PASS  = 10
+FAIL  = 10
+TOTAL = 20
+==============================
+[1205000] ENV: WAIT CONDITION SATISFIED
+$finish called at time : 1205 ns : File "/home/nashita/Desktop/practice/apb_protocol/Testbench/top/tb_top.sv" Line 89
+exit
+INFO: xsimkernel Simulation Memory Usage: 288532 KB (Peak: 337092 KB), Simulation CPU Usage: 1150 ms
+INFO: [Common 17-206] Exiting xsim at Wed Aug 12 18:58:32 2026...

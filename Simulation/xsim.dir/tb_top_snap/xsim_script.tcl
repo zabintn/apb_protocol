@@ -1,1 +1,1 @@
-xsim {tb_top_snap} -testplusarg RW -autoloadwcfg -runall
+xsim {tb_top_snap} -testplusarg BOUNDARY -autoloadwcfg -runall

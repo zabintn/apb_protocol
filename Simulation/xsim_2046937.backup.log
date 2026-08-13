@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Aug 13 18:26:53 2026
+# Process ID         : 2046937
+# Current directory  : /home/nashita/Desktop/practice/apb_protocol/Simulation
+# Command line       : xsim -mode tcl -source {xsim.dir/tb_top_snap/xsim_script.tcl}
+# Log file           : /home/nashita/Desktop/practice/apb_protocol/Simulation/xsim.log
+# Journal file       : /home/nashita/Desktop/practice/apb_protocol/Simulation/xsim.jou
+# Running On         : vlsi-vivado
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
+# CPU Frequency      : 4000.065 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 41875 MB
+# Swap memory        : 27648 MB
+# Total Virtual      : 69524 MB
+# Available Virtual  : 63235 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_top_snap/xsim_script.tcl
+# xsim {tb_top_snap} -testplusarg OW -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+[15000] RUNNING OVERWRITE TEST
+[15000] INSIDE THE BASE TEST CONSTRUCTOR
+[15000] ENV: before agent
+[15000] DRIVER CONSTRUCTED
+[15000] MONITOR CONSTRUCTED
+[15000] ENV: after agent
+[15000] ENV: before scoreboard
+Scoreboard Constructed
+[15000] ENV: after scoreboard
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=4 pwdata=9df3e91 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=4 pwdata=d069db03 | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=4 pwdata=cd4f24ac | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=4 pwdata=d8a40d6c | prdata=xxxxxxxx pready=0 pslverr=0
+[15000] END OF SAME ADDR OVERWRITE TEST
+$finish called at time : 15 ns : File "/home/nashita/Desktop/practice/apb_protocol/Testbench/test-lib/overwrite.sv" Line 23
+exit
+INFO: xsimkernel Simulation Memory Usage: 288552 KB (Peak: 337112 KB), Simulation CPU Usage: 1160 ms
+INFO: [Common 17-206] Exiting xsim at Thu Aug 13 18:26:56 2026...

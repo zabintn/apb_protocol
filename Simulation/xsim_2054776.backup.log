@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Thu Aug 13 18:36:09 2026
-# Process ID         : 2056379
+# Start of session at: Thu Aug 13 18:34:36 2026
+# Process ID         : 2054776
 # Current directory  : /home/nashita/Desktop/practice/apb_protocol/Simulation
 # Command line       : xsim -mode tcl -source {xsim.dir/tb_top_snap/xsim_script.tcl}
 # Log file           : /home/nashita/Desktop/practice/apb_protocol/Simulation/xsim.log
@@ -13,7 +13,7 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.4 LTS
 # Processor Detail   : Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
-# CPU Frequency      : 4014.083 MHz
+# CPU Frequency      : 4100.754 MHz
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
 # Host memory        : 41875 MB
@@ -38,20 +38,8 @@ Scoreboard Constructed
 [15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=fc pwdata=d069db03 | prdata=xxxxxxxx pready=0 pslverr=0
 [15000] [GENERATOR] psel=0 penable=0 pwrite=1 paddr=fd pwdata=cd4f24ac | prdata=xxxxxxxx pready=0 pslverr=0
 [15000] [GENERATOR] psel=0 penable=0 pwrite=0 paddr=fd pwdata=d8a40d6c | prdata=xxxxxxxx pready=0 pslverr=0
-[65000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=fc pwdata=9df3e91 | prdata=0 pready=1 pslverr=0
-======================= DATA WRITE =============================
-[70000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=fc pwdata=9df3e91 | prdata=0 pready=1 pslverr=0
-[125000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=fc pwdata=d069db03 | prdata=9df3e91 pready=1 pslverr=0
-======================= DATA READ =============================
-[125000] READ DATA MATCH | ADDR=fc | EXPECTED=9df3e91 | ACTUAL=9df3e91
-[130000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=fc pwdata=d069db03 | prdata=9df3e91 pready=1 pslverr=0
-[185000] [MONITOR] psel=1 penable=1 pwrite=1 paddr=fd pwdata=cd4f24ac | prdata=9df3e91 pready=1 pslverr=1
-[190000] [DRIVER] psel=0 penable=0 pwrite=1 paddr=fd pwdata=cd4f24ac | prdata=9df3e91 pready=1 pslverr=1
-[245000] [MONITOR] psel=1 penable=1 pwrite=0 paddr=fd pwdata=d8a40d6c | prdata=0 pready=1 pslverr=1
-[245000] READ DATA MATCH | ADDR=fd | EXPECTED=0 | ACTUAL=0
-[250000] [DRIVER] psel=0 penable=0 pwrite=0 paddr=fd pwdata=d8a40d6c | prdata=0 pready=1 pslverr=1
-[2415000] END OF BOUNDARY ADDR TEST
-$finish called at time : 2415 ns : File "/home/nashita/Desktop/practice/apb_protocol/Testbench/test-lib/boundary_test.sv" Line 24
+[15000] END OF BOUNDARY ADDR TEST
+$finish called at time : 15 ns : File "/home/nashita/Desktop/practice/apb_protocol/Testbench/test-lib/boundary_test.sv" Line 22
 exit
-INFO: xsimkernel Simulation Memory Usage: 288560 KB (Peak: 337120 KB), Simulation CPU Usage: 1160 ms
-INFO: [Common 17-206] Exiting xsim at Thu Aug 13 18:36:12 2026...
+INFO: xsimkernel Simulation Memory Usage: 288560 KB (Peak: 337120 KB), Simulation CPU Usage: 1150 ms
+INFO: [Common 17-206] Exiting xsim at Thu Aug 13 18:34:39 2026...

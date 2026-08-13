@@ -1,8 +1,9 @@
 `timescale 1ns/1ps
 
+
 module  tb_top #(parameter DATA_BUS_WIDTH=32,
 parameter ADDR_BUS_WIDTH=32,
-parameter TOTAL_TRANSACTIONS = 20
+parameter TOTAL_TRANSACTIONS = 30 
 );
     import test_lib_pkg::*;
 
@@ -12,6 +13,9 @@ parameter TOTAL_TRANSACTIONS = 20
     read_write rw;
     fixed_test ft;
     reset_test rt;
+    mid_reset_test wt;
+    overwrite_test ot;
+    boundary_test bt;
 	
     always #5 pclk=~pclk;
 
@@ -34,7 +38,7 @@ parameter TOTAL_TRANSACTIONS = 20
                     .PSEL(vif.psel), .PENABLE(vif.penable), .PWRITE(vif.pwrite),
                     .PADDR(vif.paddr), .PWDATA(vif.pwdata)
                     );
-
+	
     //DETERMINE WHICH TEST TO RUN
 
     task run_test();
@@ -54,6 +58,21 @@ parameter TOTAL_TRANSACTIONS = 20
 	    $display("[%0t] RUNNING RESET TEST", $time);
 	    rt=new(vif);
 	    test=rt;
+    end
+    else if ($test$plusargs("MID")) begin
+	    $display("[%0t] RUNNING MID TRANSACTION RESET CHECK TEST", $time);
+	    wt=new(vif);
+	    test=wt;
+    end
+    else if ($test$plusargs("OW")) begin
+            $display("[%0t] RUNNING OVERWRITE TEST", $time);
+            ot=new(vif);
+            test=ot;
+    end
+    else if ($test$plusargs("BOUNDARY")) begin
+            $display("[%0t] RUNNING BOUNDARY TEST", $time);
+            bt=new(vif);
+            test=bt;
     end
 
     else begin

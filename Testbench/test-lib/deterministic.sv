@@ -17,8 +17,8 @@ class fixed_test extends base_test #(
 
 
         test_addr = new[total_transactions]; 
-	test_addr = '{5, 10, 20, 5, 10, 20, 8, 12, 16, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 5};
-	test_pwrite = '{1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0};      
+	test_addr = '{16, 8, 20, 16, 8, 20, 64, 68, 72, 24, 28, 32, 36, 128, 253, 254, 253, 255, 254, 255};
+	test_pwrite = '{1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0 };      
 
         $display("[%0t] TOTAL TRANSACTIONS = %0d",
                  $time, total_transactions);

@@ -1,4 +1,4 @@
-class read_write extends base_test #(
+class write_test extends base_test #(
     DATA_BUS_WIDTH,
     ADDR_BUS_WIDTH
 );
@@ -12,23 +12,16 @@ class read_write extends base_test #(
     bit [ADDR_BUS_WIDTH-1:0] test_addr[];
     bit test_pwrite[];
 
-
-
-
     virtual task run();
 
         test_addr   = new[total_transactions];
         test_pwrite = new[total_transactions];
 
-        for (int i = 0; i < total_transactions/2; i++) begin
+        for (int i = 0; i < total_transactions; i++) begin
 
-            // WRITE
+            // WRITE ONLY
             test_addr[i]   = i*4;
             test_pwrite[i] = 1;
-
-            // READ
-            test_addr[i + total_transactions/2]   = i*4;
-            test_pwrite[i + total_transactions/2] = 0;
 
         end
 
@@ -42,6 +35,11 @@ class read_write extends base_test #(
             test_addr,
             test_pwrite
         );
+
+	//Scoreboard 
+	
+	    wait (env_o.sb.compare_count == total_transactions);
+	   $finish;
 
     endtask
 

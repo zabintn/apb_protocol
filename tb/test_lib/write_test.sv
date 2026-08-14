@@ -22,7 +22,7 @@ class write_test extends base_test #(
     bit test_pwrite[];
 
     virtual task run();
-
+	apply_reset();
         test_addr   = new[total_transactions];
         test_pwrite = new[total_transactions];
 

@@ -1,0 +1,282 @@
+$date
+   Fri Aug 14 16:07:37 2026
+$end
+
+$version
+  2025.2
+  $dumpfile ("waveform.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_top $end
+$var reg 1 ! pclk $end
+$upscope $end
+$scope module test_lib_pkg $end
+$scope function base_test(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::new $end
+$upscope $end
+$scope task base_test(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::apply_reset $end
+$upscope $end
+$scope task base_test(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::run $end
+$upscope $end
+$scope task read_write::apply_reset $end
+$upscope $end
+$scope function read_write::new $end
+$upscope $end
+$scope task read_write::run $end
+$upscope $end
+$scope task fixed_test::apply_reset $end
+$upscope $end
+$scope function fixed_test::new $end
+$upscope $end
+$scope task fixed_test::run $end
+$upscope $end
+$scope function reset_test::new $end
+$upscope $end
+$scope task reset_test::apply_reset $end
+$upscope $end
+$scope task reset_test::run $end
+$upscope $end
+$scope function mid_reset_test::new $end
+$upscope $end
+$scope task mid_reset_test::apply_reset $end
+$upscope $end
+$scope task mid_reset_test::run $end
+$upscope $end
+$scope task overwrite_test::apply_reset $end
+$upscope $end
+$scope function overwrite_test::new $end
+$upscope $end
+$scope task overwrite_test::run $end
+$upscope $end
+$scope task boundary_test::apply_reset $end
+$upscope $end
+$scope function boundary_test::new $end
+$upscope $end
+$scope task boundary_test::run $end
+$upscope $end
+$upscope $end
+$scope module apb_env_pkg $end
+$scope function scoreboard(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32,MEMSIZE=64,MEM_BLOCK_SIZE=8,RESET_VAL=0)::new $end
+$upscope $end
+$scope task scoreboard(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32,MEMSIZE=64,MEM_BLOCK_SIZE=8,RESET_VAL=0)::run $end
+$scope begin Block41_2 $end
+$upscope $end
+$upscope $end
+$scope task scoreboard(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32,MEMSIZE=64,MEM_BLOCK_SIZE=8,RESET_VAL=0)::report $end
+$upscope $end
+$scope function env(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::new $end
+$upscope $end
+$upscope $end
+$scope module apb_agent_pkg $end
+$scope function transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::display $end
+$upscope $end
+$scope function transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::randomize_testtransaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32) $end
+$upscope $end
+$scope function driver(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::new $end
+$upscope $end
+$scope task driver(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::run $end
+$upscope $end
+$scope function monitor(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::new $end
+$upscope $end
+$scope task monitor(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::run $end
+$upscope $end
+$scope function generator(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::new $end
+$upscope $end
+$scope task generator(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::run $end
+$scope begin Block22_6 $end
+$upscope $end
+$upscope $end
+$scope task generator(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::write $end
+$upscope $end
+$scope task generator(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::read $end
+$upscope $end
+$scope function agent(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::new $end
+$upscope $end
+$scope task agent(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)::run $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_0::new $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_0::randomize_testwrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_0 $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_0::race_node_registration $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_0::inline_constraint_/home/nashita/Desktop/practice/apb_protocol/tb/pkg/../seq_lib/apb_generator.sv25_f $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_1::new $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_1::randomize_testwrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_1 $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_1::race_node_registration $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_1::inline_constraint_/home/nashita/Desktop/practice/apb_protocol/tb/pkg/../seq_lib/apb_generator.sv45_f $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_2::new $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_2::randomize_testwrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_2 $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_2::race_node_registration $end
+$upscope $end
+$scope function wrapper_transaction(DATA_BUS_WIDTH=32,ADDR_BUS_WIDTH=32)_2::inline_constraint_/home/nashita/Desktop/practice/apb_protocol/tb/pkg/../seq_lib/apb_generator.sv63_f $end
+$upscope $end
+$upscope $end
+$scope module std $end
+$scope function semaphore::new $end
+$upscope $end
+$scope function semaphore::put $end
+$upscope $end
+$scope task semaphore::get $end
+$upscope $end
+$scope function semaphore::try_get $end
+$upscope $end
+$scope function mailbox_typeless::new $end
+$upscope $end
+$scope task mailbox_typeless::put $end
+$upscope $end
+$scope task mailbox_typeless::get $end
+$upscope $end
+$scope task mailbox_typeless::peek $end
+$upscope $end
+$scope function generic_mailbox_internal(T=logic_signed[31:0])::new $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::put $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::put_string $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::put_real $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::put_generic_item $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::get $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::get_string $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::get_real $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::get_generic_item $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::peek $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::peek_string $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::peek_real $end
+$upscope $end
+$scope task generic_mailbox_internal(T=logic_signed[31:0])::peek_generic_item $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+$end
+
+#5000
+1!
+
+#10000
+0!
+
+#15000
+1!
+
+#20000
+0!
+
+#25000
+1!
+
+#30000
+0!
+
+#35000
+1!
+
+#40000
+0!
+
+#45000
+1!
+
+#50000
+0!
+
+#55000
+1!
+
+#60000
+0!
+
+#65000
+1!
+
+#70000
+0!
+
+#75000
+1!
+
+#80000
+0!
+
+#85000
+1!
+
+#90000
+0!
+
+#95000
+1!
+
+#100000
+0!
+
+#105000
+1!
+
+#110000
+0!
+
+#115000
+1!
+
+#120000
+0!
+
+#125000
+1!
+
+#130000
+0!
+
+#135000
+1!
+
+#140000
+0!
+
+#145000
+1!
+
+#150000
+0!
+
+#155000
+1!
+
+#160000
+0!
+
+#165000
+1!
+
+#170000
+0!
+
+#175000
+1!
+
+#180000
+0!

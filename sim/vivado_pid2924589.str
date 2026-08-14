@@ -1,0 +1,149 @@
+/*
+
+AMD xsim v2025.2 (64-bit) [Major: 2025, Minor: 2]
+SW Build: 6299465 on Fri Nov 14 12:34:56 MST 2025
+IP Build: 6300035 on Fri Nov 14 10:48:45 MST 2025
+IP Build: 6300035 on Fri Nov 14 10:48:45 MST 2025
+
+Process ID (PID): 2924589
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Aug 14 11:38:16 BDT 2026
+Time zone: 	Bangladesh Standard Time (Asia/Dhaka)
+
+OS: Ubuntu
+OS Version: 7.0.0-28-generic
+OS Architecture: amd64
+Available processors (cores): 12
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: localhost:10.0
+Screen size: 1920x1080
+Local screen bounds: x = 67, y = 32, width = 1853, height = 1048
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: true
+
+Java version: 	21.0.5 64-bit
+
+Java home: 	/tools/2025.2/tps/lnx64/jre21.0.5_11
+Java executable: 	/tools/2025.2/tps/lnx64/jre21.0.5_11/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms812m, -Xmx6144m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	812 MB
+Java maximum memory (-Xmx):	 6 GB
+
+User name: 	nashita
+User home directory: /home/nashita
+User working directory: /home/nashita/Desktop/practice/apb_protocol/Simulation
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/2025.2
+HDI_APPROOT: /tools/2025.2/Vivado
+RDI_DATADIR: /tools/2025.2/SharedData/data:/tools/2025.2/data
+RDI_BINDIR: /tools/2025.2/Vivado/bin
+
+Vivado preferences file: /home/nashita/.Xilinx/xsim/2025.2/vivado.xml
+Vivado preferences directory: /home/nashita/.Xilinx/xsim/2025.2/
+Vivado layouts directory: /home/nashita/.Xilinx/xsim/2025.2/data/layouts
+PlanAhead jar file: 	/tools/2025.2/Vivado/lib/classes/planAhead.jar
+Vivado log file: 	/home/nashita/Desktop/practice/apb_protocol/Simulation/xsim.log
+Vivado journal file: 	/home/nashita/Desktop/practice/apb_protocol/Simulation/xsim.jou
+Engine tmp dir: 	./.Xil/xsim-2924589-vlsi-vivado
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /tools/2025.2/Vivado
+RDI_BASEROOT: /tools/2025.2
+RDI_BINROOT: /tools/2025.2/Vivado/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/2025.2/SharedData/data:/tools/2025.2/data
+RDI_INSTALLROOT: /tools
+RDI_INSTALLVER: Vivado
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.5_11
+RDI_LIBDIR: /tools/2025.2/Vivado/lib/lnx64.o/Ubuntu/24:/tools/2025.2/Vivado/lib/lnx64.o/Ubuntu:/tools/2025.2/Vivado/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/2025.2/Vitis/bin:/tools/2025.2/Vivado/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/2025.2/Vivado/bin/unwrapped/lnx64.o/xsim
+RDI_SESSION_INFO: /home/nashita/Desktop/practice/apb_protocol/Simulation:vlsi-vivado_1786685882_2924500
+RDI_SHARED_DATA: /tools/2025.2/SharedData/data
+RDI_TPS_ROOT: /tools/2025.2/Vivado/tps/lnx64
+RDI_USE_JDK21: 1
+SHELL: /bin/bash
+XILINX: /tools/2025.2/Vivado/ids_lite/ISE
+XILINX_DSP: /tools/2025.2/Vivado/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/2025.2/Vivado
+XILINX_SDK: /tools/2025.2/Vitis
+XILINX_VITIS: /tools/2025.2/Vitis
+
+
+GUI allocated memory:	812 MB
+GUI max memory:		6,144 MB
+Engine allocated memory: 2,104 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: source xsim.dir/tb_top_snap/xsim_script.tcl 
+// Tcl Message: # set_param project.enableReportConfiguration 0 
+// TclEventType: LOAD_FEATURE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: # load_feature core # current_fileset 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 130 MB (+133814kb) [00:00:10]
+// [Engine Memory]: 2,095 MB (+2045794kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  1310 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/2025.2/data/ip'. 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel", "Sourcing Tcl script 'xsim.dir/tb_top_snap/xsim_script.tcl'"); // a (RDIResource.ProgressDialog_CANCEL)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,137 MB. GUI used memory: 69 MB. Current time: 8/14/26, 11:38:16 AM BDT
+// Tcl Message: # xsim {tb_top_snap} -testplusarg FIXED -autoloadwcfg -runall 
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
